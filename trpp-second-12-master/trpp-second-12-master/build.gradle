@@ -1,5 +1,5 @@
 plugins {
-    id("com.github.johnrengelman.shadow") version "6.1.0"
+    id 'com.github.johnrengelman.shadow' version '7.1.2'
     id("io.micronaut.application") version "1.3.4"
     id 'checkstyle'
 }
@@ -36,7 +36,7 @@ dependencies {
 
 
 application {
-    mainClass.set("ru.mirea.Application")
+    mainClass.set("ru.mirea.trpp_second_12.Application")
 }
 
 java {
@@ -63,7 +63,7 @@ javadoc {
 }
 
 shadowJar {
-    archivesBaseName = "${project.name}"
+    archivesBaseName = "${project.name}_Khrechko"
     libsDirName = "${project.name}"
     classifier('')
 }

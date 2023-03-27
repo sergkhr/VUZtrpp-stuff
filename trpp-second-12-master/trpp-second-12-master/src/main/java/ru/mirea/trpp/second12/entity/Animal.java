@@ -1,4 +1,4 @@
-package ru.mirea.trpp_second_12.entity;
+package ru.mirea.trpp.second12.entity;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.opencsv.bean.CsvBindByName;
@@ -7,7 +7,6 @@ import lombok.Setter;
 import lombok.ToString;
 
 import java.math.BigDecimal;
-import java.math.BigInteger;
 
 /** Сущность животного. */
 @Getter
